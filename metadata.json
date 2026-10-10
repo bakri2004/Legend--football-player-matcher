@@ -1,0 +1,6 @@
+{
+  "name": "Legend – Football Player Matcher",
+  "description": "Discover which legendary footballer matches your physical profile and style of play in four quick questions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

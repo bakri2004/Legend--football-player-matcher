@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-condensed: "Barlow Condensed", -apple-system, sans-serif;
+  --font-sans: "Source Sans 3", system-ui, -apple-system, sans-serif;
+  --color-paper: #F4F0E6;
+  --color-paper-light: #FAF8F2;
+  --color-paper-dark: #EAE4D4;
+  --color-ink: #111111;
+  --color-ink-muted: #555555;
+  --color-pitch: #1F6F43;
+  --color-pitch-dark: #165231;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* Print and screenshot optimization */
+@media print {
+  body {
+    background-color: #ffffff;
+  }
+}
